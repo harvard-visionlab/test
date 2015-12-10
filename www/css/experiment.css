@@ -1,0 +1,171 @@
+body {
+  font-family: Arial, Helvetica; 
+}
+
+/* Main task: 
+ ----------------------------------------*/
+#task {
+  display: none;
+  position: relative;
+  width: 400px;
+  height: 400px;
+  top: 20px;
+  background: #DDDDDD;
+  border: 1px solid gray;
+  margin: 0 auto;
+}
+
+/* All circles; */
+.circle {
+	position: absolute;
+	width: 80px;
+  	height: 80px;
+  	border-radius: 50%;
+  	border: 1px solid black;  
+}
+
+#circle1 {
+  top: 70px;
+  left: 160px; 
+}
+
+#circle2 {
+  top: 205px;
+  left: 238px; 
+}
+
+#circle3 {
+  top: 205px;
+  left: 82px; 
+}
+
+.grid4 {
+	float: left;
+	width: 25%;
+	height: 25%;
+	background-color: red;
+	border: solid 1px black;
+}
+
+.grid5 {
+	float: left;
+	width: 20%;
+	height: 20%;
+	background-color: red;
+	border: solid 1px black;
+}
+
+/* Text within the task div: */
+#instrucKeys {
+  display: none;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 10px;
+  font-size: 10pt;
+}
+
+#startTrial {
+  display: none;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 10px;
+  font-size: 11pt;
+}
+
+#fixation {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 50%;
+  margin-top: -20px;
+  font-size: 14pt;
+}
+
+
+/* Code for instructions/consent: 
+  -------------------------------*/
+.startExperimentButton {
+  display: inline-block;
+  color: black; 
+  border: 3px outset gray; 
+  background-color: #CCCCCC; 
+  padding: 8px; 
+  text-decoration: none; 
+  font-family: Arial, Helvetica; 
+  font-weight: bold;
+}
+
+.startExperimentButton:hover {
+  border: 3px inset gray; 
+}
+
+.startExperimentButton:active {
+  border: 3px inset gray; 
+}
+
+#consentDiv {
+  font-size:9pt; 
+  font-family: Arial, Helvetica; 
+  padding:10px; 
+  border:1px dashed gray; 
+  max-width: 600px; 
+  margin: 0 auto; 
+  margin-top: 30px;
+}
+
+.instructionsDiv {
+  max-width: 600px; 
+  margin: 0 auto; 
+  margin-top: 30px; 
+  line-height: 1.4em;
+}
+
+/* For 'Done'/comments box:
+ ---------------------------------- */
+#done {
+  display: none;
+  width: 600px; 
+  height: 600px;
+  margin: 0 auto; 
+  margin-top: 30px; 
+}
+
+#doneText {
+  position: absolute;
+  width: 600px;
+  top: 55px;
+  text-align: center;
+  font-size: 20px;
+}
+
+#saving {
+  display: none;
+  position: absolute;
+  width: 600px;
+  top: 235px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#timSubmit {
+  font-weight: bold; 
+  color: black; 
+  border: 3px outset gray; 
+  background: #CCC; 
+  padding: 5px; 
+  text-decoration: none;
+}
+
+#timSubmit:hover {
+  border: 3px solid gray; 
+}
+
+#timSubmit:active {
+  border: 3px inset gray; 
+}
+
+
+

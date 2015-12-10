@@ -1,0 +1,18 @@
+{
+    "name": "opencpu/workout",
+    "type": "dunno",
+    "version": "1.0.0",
+    "description": "A demonstration of how to use opencpu.",
+    "keywords": ["opencpu", "R"],
+    "require": {
+    	"rmccue/requests": ">=1.0",
+    	"guzzlehttp/guzzle": "~6.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Alvarez",
+            "email": "alvarez@gmail.com"
+        }
+    ]
+}
